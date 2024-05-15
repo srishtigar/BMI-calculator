@@ -1,0 +1,23 @@
+height = float(input("your height"))
+weight = float(input("your weight"))
+# Using the exponent operator **
+bmi = weight / (height ** 2)
+# or using multiplication and PEMDAS
+if bmi < 18.5:
+    print(f"Your BMI is {bmi}, you are underweight.")
+elif bmi < 30:
+        print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif bmi < 25:
+          print(f"Your BMI is {bmi}, you are normal weight.")
+elif bmi < 35:
+           print(f"Your BMI is {bmi}, you are obese.")
+else:
+        print(f"Your BMI is {bmi}, you are clinically obese.")
+
+output:
+PS C:\Users\srish\OneDrive\Desktop\be limitless. html\python> python -u "c:\Users\srish\OneDrive\Desktop\be limitless. html\python\tempCodeRunnerFile.py"
+your height 162
+your weight 53
+Your BMI is 0.0020195092211553116, you are underweight.
+PS C:\Users\srish\OneDrive\Desktop\be limitless. html\python> 
+
